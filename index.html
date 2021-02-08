@@ -9,10 +9,26 @@
     
 
     <style>
-        #first, #second{
+        #res{
+            margin-left: -12px;
+        }
+        #first, #second {
             background-color: aqua;
+            padding-top: 2px;
+            padding-bottom: 2px;
             border-radius: 5px;
             border: blue;
+            
+        }
+
+        #result{
+            margin-left: 2px;
+            background-color: aqua;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 5px;
+            border: blue;
+
             
         }
 
@@ -22,7 +38,9 @@
         }
 
         .container{
+            background-color: rgb(150, 131, 168);
             width: 300px;
+            text-align: center;
             border:5px solid chocolate;
             padding: 50px 50px;
             margin: 100px;
@@ -31,6 +49,8 @@
     </style>
 
     <script>
+
+
    
 function cleard(){
     var result=null;
@@ -78,9 +98,10 @@ function divide(){
     <div class="container">
 
     
-    Number1:<input type="number" id="first"><br>
-    Number2:<input type="number" id="second"><br>
-    Result:<input id="result"></input>
+    Number1:<input type="number" id="first"><br><br>
+    Number2:<input type="number" id="second"><br><br>
+
+ <p id="res">Result : <input id="result"></input></p>
     <br>
     
     
